@@ -3199,7 +3199,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           id="https:volantisjsorgfaqs"
         
       >
-        <i class='fa fa-question fa-fw'></i> 心苞心语
+        <i class='fa fa-question fa-fw'></i> 点滴
       </a>
     </li>
   
@@ -3208,15 +3208,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
     <li class="menuLoad-Content">
-      <a class='vlts-menu fix-cursor-default' href=https://volantis.js.org/examples/
+      <a class='vlts-menu fix-cursor-default' href=/#/
         
         
         
         
-          id="https:volantisjsorgexamples"
+          id="#"
         
       >
-        <i class='fa fa-rss fa-fw'></i> 心苞音乐
+        <i class='fa fa-rss fa-fw'></i> 日记
       </a>
     </li>
   
@@ -3233,7 +3233,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           id="https:volantisjsorgcontributors"
         
       >
-        <i class='fa fa-fan fa-spin fa-fw'></i> 时光线
+        <i class='fa fa-fan fa-spin fa-fw'></i> 表白
       </a>
     </li>
   
@@ -3254,7 +3254,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           id="https:githubcomvolantis-xvolantis-docs"
         
       >
-        <i class='fa fa-code-branch fa-fw'></i> 心苞小屋
+        <i class='fa fa-code-branch fa-fw'></i> 相册
       </a>
     </li>
   
@@ -3271,7 +3271,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           id="https:githubcomvolantis-xhexo-theme-volantis"
         
       >
-        <i class='fa fa-code-branch fa-fw'></i> 表白
+        <i class='fa fa-code-branch fa-fw'></i> 心语
       </a>
     </li>
   
@@ -3284,7 +3284,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <li class='option menuOption-Content'>
             <span class='vlts-menu opt fix-cursor-default' id='printHtml'>
-              <i class='fa fa-print fa-fw '></i> 心苞记录
+              <i class='fa fa-print fa-fw '></i> 记录
             </span>
           </li>  
         
@@ -3595,14 +3595,14 @@ volantis.pjax.push(bindToggleButton);
   }
   function pjax_valine() {
     if(!document.querySelectorAll("#valine_container")[0])return;
-    let pagePlaceholder = pdata.commentPlaceholder || "快来评论吧~";
+    let pagePlaceholder = pdata.commentPlaceholder || "留下你的足记吧~";
     let path = pdata.commentPath;
     if (path.length == 0) {
       let defaultPath = '';
       path = defaultPath || decodeURI(window.location.pathname);
     }
     var valine = new Valine();
-    valine.init(Object.assign({"path":null,"placeholder":"快来评论吧~","appId":"U8I1f0m3CHYywxlXLKfRFUEs-gzGzoHsz","appKey":"5Q0Fcwn3ttSy8jcq4LgPYjDg","meta":["nick","mail","link"],"requiredFields":["nick","mail"],"enableQQ":true,"recordIP":false,"avatar":"robohash","pageSize":10,"lang":"zh-cn","highlight":true,"mathJax":false,"js":"https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"}, {
+    valine.init(Object.assign({"path":null,"placeholder":"留下你的足记吧~","appId":"U8I1f0m3CHYywxlXLKfRFUEs-gzGzoHsz","appKey":"5Q0Fcwn3ttSy8jcq4LgPYjDg","meta":["nick","mail","link"],"requiredFields":["nick","mail"],"enableQQ":true,"recordIP":false,"avatar":"robohash","pageSize":10,"lang":"zh-cn","highlight":true,"mathJax":false,"js":"https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"}, {
       el: '#valine_container',
       path: path,
       placeholder: pagePlaceholder,
